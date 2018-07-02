@@ -1,0 +1,111 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font: 1em "Fira Sans", sans-serif;
+  color: #ffffff;
+  background: no-repeat url("../images/wood.jpg"); }
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 3rem; }
+  @media (min-width: 800px) {
+    h1 {
+      text-align: left;
+      margin-left: 6%;
+      font-size: 4rem; } }
+
+#container {
+  background: #292929;
+  padding: .5rem 0 1rem 0;
+  text-align: center; }
+  #container label {
+    text-align: center;
+    margin-left: 10%;
+    display: block;
+    margin: 1rem 0 .5rem 0; }
+  #container input:first-of-type {
+    width: 50%; }
+  #container input {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  #container button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem; }
+  @media (min-width: 800px) {
+    #container label {
+      display: inline; }
+    #container input {
+      width: auto;
+      margin-right: 1rem; }
+    #container input:first-of-type {
+      width: auto; }
+    #container button {
+      margin-left: 1rem;
+      font-size: .8rem;
+      padding: .4rem;
+      display: inline; } }
+
+h2 {
+  margin-left: 6%;
+  margin-bottom: 0; }
+
+ul {
+  width: 90%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0; }
+  @media (min-width: 800px) {
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; } }
+  ul li {
+    color: #000000;
+    background: #ffffff;
+    padding: 0rem 1rem 1rem 1rem;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 1px solid rgba(207, 207, 207, 0.5);
+    box-shadow: 2px 2px 3px 3px #ccc; }
+    ul li button {
+      background-color: #940000; }
+    @media (min-width: 800px) {
+      ul li {
+        width: calc(100% / 3 - 3rem); } }
+
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: 0 auto;
+  margin-left: 0;
+  margin-bottom: 1rem; }
+  .star-ratings-sprite .star-ratings-sprite-rating {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+    background-position: 0 100%;
+    float: left;
+    height: 21px;
+    display: block; }
+
+button {
+  background-color: #0e8dcb;
+  color: white;
+  border: 0;
+  margin-top: .5rem;
+  font-size: .8rem;
+  border-radius: 10px;
+  padding: .4rem; }
